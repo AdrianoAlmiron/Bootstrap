@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.navbar navbar-expand-lg navbar-light bg-light {
+
+    position: sticky;
+    top: 0;
+
+}
+.container-fluid a:hover{
+	
+	color: rgb(255, 215, 83);
+	text-decoration: none;
+}
+.navbar navbar-dark bg-dark{
+    position: sticky;
+    bottom: 0;
+	
+}
+/* * ============================== */
+/* * ====== MEDIA QUERIES ========= */
+/* * ============================== */
+@media screen and (max-width: 900px){
+	
+
+	.container-fluid a{
+		width: auto;
+		flex: 1;
+	}
+	
+}
